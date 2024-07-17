@@ -15,10 +15,14 @@ return new class extends Migration
     {
         Schema::create('transaksis', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('id_order')->constrained('orders')->onDelete('cascade');
-            $table->integer('total');
-            $table->string('status');
+            $table->unsignedBigInteger('id_order');
+            $table->unsignedBigInteger('id_produk');
+            $table->integer('quantity');
+            $table->decimal('price', 10, 2);
             $table->timestamps();
+
+            $table->foreign('id_order')->references('id')->on('orders')->onDelete('cascade');
+            $table->foreign('id_produk')->references('id')->on('produks')->onDelete('cascade');
         });
     }
 

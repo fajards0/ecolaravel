@@ -23,5 +23,11 @@ class UserSeeder extends Seeder
             'password' => Hash::make('12345678'),
             'level' => 1
         ]);
+        User::insert([
+            'name' => 'fajar',
+            'email' => 'fajar@gmail.com',
+            'password' => Hash::make('12345678'),
+            'level' => 0
+        ]);
     }
 }

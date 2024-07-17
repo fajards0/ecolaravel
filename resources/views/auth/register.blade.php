@@ -16,7 +16,7 @@
                                 </div>
                                 <div class=" account-inner-form">
                                     <div class="review-form-name">
-                                        <label for="fname" class="form-label">Username*</label>
+                                        <label for="fname" class="form-label">Username</label>
                                         <input id="name" type="text"
                                             class="form-control @error('name') is-invalid @enderror" name="name"
                                             value="{{ old('name') }}" required autocomplete="name" autofocus>
@@ -30,7 +30,7 @@
                                 </div>
                                 <div class=" account-inner-form">
                                     <div class="review-form-name">
-                                        <label for="email" class="form-label">Email*</label>
+                                        <label for="email" class="form-label">Email</label>
                                         <input id="email" type="email"
                                             class="form-control @error('email') is-invalid @enderror" name="email"
                                             value="{{ old('email') }}" required autocomplete="email">
@@ -44,7 +44,7 @@
                                 </div>
                                 <div class=" account-inner-form">
                                     <div class="review-form-name">
-                                        <label for="cpass" class="form-label">Password*</label>
+                                        <label for="cpass" class="form-label">Password</label>
                                         <input id="password" type="password"
                                             class="form-control @error('password') is-invalid @enderror" name="password"
                                             required autocomplete="new-password">
@@ -56,7 +56,7 @@
                                         @enderror
                                     </div>
                                     <div class="review-form-name">
-                                        <label for="rpass" class="form-label">Retype Password*</label>
+                                        <label for="rpass" class="form-label">Confirm Password</label>
                                         <input id="password-confirm" type="password" class="form-control"
                                             name="password_confirmation" required autocomplete="new-password">
                                     </div>
@@ -68,13 +68,12 @@
                                     <div class="checkbox-item">
                                         <input type="checkbox">
                                         <p class="remember">
-                                            I agree all terms and condition in <span class="inner-text">EcoShop.</span></p>
+                                            Saya setuju semua syarat dan ketentuan di <span class="inner-text">FloraShop.</span></p>
                                     </div>
                                 </div>
                                 <div class="login-btn text-center">
                                     <button type="submit" class="shop-btn">Buat Akun Anda</button>
-                                    <span class="shop-account">Already have an account ?<a href="login.html">Log
-                                            In</a></span>
+                                    <span class="shop-account">Sudah Memiliki Akun ?<a href="{{url('login')}}">Masuk</a></span>
                                 </div>
                             </form>
                         </div>

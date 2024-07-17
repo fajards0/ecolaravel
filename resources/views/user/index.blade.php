@@ -34,7 +34,7 @@
                         <div class="hero-wrapper-slide wrapper-slide">
                             <div class="wrapper-info" data-aos="fade-right">
                                 <span class="wrapper-subtitle">grosir tanaman</span>
-                                <h1 class="wrapper-details"> We Provide Fresh and Organic Fruits To Your Door.
+                                <h1 class="wrapper-details"> Kami Memiliki Banyak Tanaman Yang Bermanfaat.
                                 </h1>
                                 <a href="{{url('shop')}}" class="shop-btn">Beli Sekarang
                                     <span>
@@ -57,7 +57,7 @@
                         <div class="hero-wrapper-slide wrapper-slide">
                             <div class="wrapper-info" data-aos="fade-right">
                                 <span class="wrapper-subtitle">grosir tanaman</span>
-                                <h1 class="wrapper-details"> You Can Buy All the Grocery Items Hasslefree
+                                <h1 class="wrapper-details"> Isi Keranjang Mu Di Sini
                                 </h1>
                                 <a href="{{url('shop')}}" class="shop-btn">Beli Sekarang
                                     <span>
@@ -106,8 +106,8 @@
                                 </span>
                             </div>
                             <div class="service-content">
-                                <h5 class="service-info service-title">Free Shipping</h5>
-                                <p class="service-info service-details">When ordering over $100</p>
+                                <h5 class="service-info service-title">Pengiriman Gratis</h5>
+                                <p class="service-info service-details">Jika memesan lebih dari Rp.100.000</p>
                             </div>
                         </div>
                     </div>
@@ -126,8 +126,8 @@
                                 </span>
                             </div>
                             <div class="service-content">
-                                <h5 class="service-info service-title">Free Return</h5>
-                                <p class="service-info service-details">Get Return within 30 days</p>
+                                <h5 class="service-info service-title">Pengembalian Gratis</h5>
+                                <p class="service-info service-details">Dapatkan Pengembalian dalam waktu 30 hari</p>
                             </div>
                         </div>
                     </div>
@@ -151,8 +151,8 @@
                                 </span>
                             </div>
                             <div class="service-content">
-                                <h5 class="service-info service-title">Secure Payment</h5>
-                                <p class="service-info service-details">100% Secure Online Payment</p>
+                                <h5 class="service-info service-title">Pembayaran Aman</h5>
+                                <p class="service-info service-details">Pembayaran Online 100% Aman</p>
                             </div>
                         </div>
                     </div>
@@ -178,8 +178,8 @@
                                 </span>
                             </div>
                             <div class="service-content">
-                                <h3 class="service-info service-title">Best Quality</h3>
-                                <p class="service-info service-details">Original Product Guarenteed</p>
+                                <h3 class="service-info service-title">Kualitas Terbaik</h3>
+                                <p class="service-info service-details">Jaminan Produk Asli</p>
                             </div>
                         </div>
                     </div>
@@ -195,8 +195,8 @@
 <section class="product fresh">
     <div class="container">
         <div class="section-title">
-            <h3>Fresh Vegetables</h3>
-            <a href="product-sidebar.html" class="view">View All</a>
+            <h3>Tanaman</h3>
+            <a href="{{url('shop')}}" class="view">Lihat Banyak</a>
         </div>
         <div class="col-lg-9">
             <div class="product-sidebar-section" data-aos="fade-up">

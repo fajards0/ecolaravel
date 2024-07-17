@@ -8,7 +8,7 @@
                     <div class="sidebar" data-aos="fade-right">
                         <div class="sidebar-section box-shadows">
                             <div class="sidebar-wrapper">
-                                <h3 class="wrapper-heading">Product Categories</h3>
+                                <h3 class="wrapper-heading">Kategori Produk</h3>
                                 <div class="sidebar-item">
                                     <ul class="sidebar-list">
                                         <li class="list-group-item">
@@ -24,29 +24,14 @@
                             </div>
                             <hr>
                         </div>
-                        <div class="sidebar-shop-section">
-                            <span class="wrapper-subtitle">TRENDY</span>
-                            <h3 class="wrapper-heading">Best wireless Shoes</h3>
-                            <a href="seller-sidebar.html" class="shop-btn deal-btn">Shop Now
-                                <span>
-                                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <rect x="1.45312" y="0.914062" width="9.25346" height="2.05632"
-                                            transform="rotate(45 1.45312 0.914062)" />
-                                        <rect x="8" y="7.45703" width="9.25346" height="2.05632"
-                                            transform="rotate(135 8 7.45703)" />
-                                    </svg>
-                                </span>
-                            </a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-9">
                     <div class="product-sidebar-section" data-aos="fade-up">
                         <div class="row g-5">
                             <center><form id="searchForm">
-                                <input type="text" id="searchInput" placeholder="Search Product...">
-                                <button type="submit" class="shop-btn">Search</button>
+                                <input type="text" id="searchInput" placeholder="Cari Produk...">
+                                <button type="submit" class="shop-btn">Cari</button>
                             </form></center>
 
                             <!-- Product listing -->

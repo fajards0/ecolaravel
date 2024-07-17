@@ -171,19 +171,19 @@
                         <ul class="menu-list">
                             <li>
                                 <a href="{{ url('/') }}">
-                                    <span class="list-text">Home</span>
+                                    <span class="list-text">Beranda</span>
                                 </a>
                             </li>
                             <li class="mega-menu">
                                 <a href="{{ url('shop') }}">
-                                    <span class="list-text">Shop</span>
+                                    <span class="list-text">Toko</span>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <a href="#" class="shop-btn">
-                    About
+                    Tentang
                 </a>
             </div>
         </div>
